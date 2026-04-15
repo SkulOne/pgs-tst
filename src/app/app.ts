@@ -8,5 +8,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.scss'
 })
 export class App {
+  some: string;
   protected readonly title = signal('simbirsoft-soccerstat');
+  constructor(){this.some="wasdadas"}
 }
