@@ -10,6 +10,6 @@ import { environment } from '../environments/environment';
 })
 export class App {
   constructor(){
-    console.log(environment.apiKey)
+    console.log('my-pi-key', environment.apiKey)
   }
 }
