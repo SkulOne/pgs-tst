@@ -43,6 +43,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "baseHref": "/pgs-tst/",
+            "outputPath": "dist/simbirsoft-soccerstat",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
