@@ -1,3 +1,3 @@
 export const environment = {
-  apiKey: 'apiKeyProd'
+  apiKey: 'PLACEHOLDER_API_KEY'
 };
