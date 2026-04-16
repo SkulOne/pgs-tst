@@ -17,10 +17,10 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-      - run: npm run build
       - name: Replace API key in environment files
         run: |
           sed -i "s|PLACEHOLDER_API_KEY|${{ secrets.API_KEY }}|g" src/environments/environment.prod.ts
+      - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist/simbirsoft-soccerstat/browser
