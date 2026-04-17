@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +8,4 @@ import { environment } from '../environments/environment';
   styleUrl: './app.scss'
 })
 export class App {
-  constructor(){
-    console.log('my-pi-key', environment.apiKey)
-  }
 }
